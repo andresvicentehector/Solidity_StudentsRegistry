@@ -1,9 +1,35 @@
 REMIX DEFAULT WORKSPACE
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+This is a group con contracts that test the diferent data structures and variables that might be used with Solidity.
+
+There are also two interesting contacts called TaskList.sol and StudentsRegistry.sol
+
+TASKLIST Contract
+
+this allow to any account user to add a TASK using an string(_text), and a integer as its dificulty grade (_dif)
+
+Functions: 
+
+addTask -> adds a task 
+getTaskbyId -> returns a task after giving an id(string+dificulty)
+getTaskTextbyId -> returns the task value after giving an id (only the string)
+getAllTaskTxt -> return all the task on an array.
+
+![addTask](/screenshots/tasklist.png)
+
+StudentsRegistry Contract
+
+This allows an account to register some personal data to the contract, but only once (one per adress)
+
+Functions:
+
+registerMe -> register the account data given by the user
+unRegisterMe -> unregist the account data  when the user ask for it 
+getmydata()-> give the accountant her/his personal info
+getStudentsList -> returns a list of names of the students
+
+DEFAULT TEXT README
+
 
 This workspace contains 3 directories:
 
