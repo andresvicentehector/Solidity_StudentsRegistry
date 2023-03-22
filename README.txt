@@ -15,7 +15,7 @@ getTaskbyId -> returns a task after giving an id(string+dificulty)
 getTaskTextbyId -> returns the task value after giving an id (only the string)
 getAllTaskTxt -> return all the task on an array.
 
-![addTask](/screenshots/tasklist.png)
+![addTask](main/screenshots/tasklist.png)
 
 StudentsRegistry Contract
 
