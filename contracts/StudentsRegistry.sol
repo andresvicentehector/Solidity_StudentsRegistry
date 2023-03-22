@@ -8,6 +8,8 @@ contract StudentsRegistry {
 struct Student {
  
  string name;
+ string surname;
+
  uint8 age;
 
  bool exist; 
@@ -27,18 +29,30 @@ constructor(){
  
     }
 
-function registerMe( string memory _name, uint8  _age) public returns(bool success){
+function registerMe( string memory _name,string memory _surname, uint8  _age) public returns(bool success){
 
-if(! StudentList[Owner].exist){
+if(! StudentList[msg.sender].exist){
     
-StudentList[Owner] = Student( _name, _age, true);
+StudentList[msg.sender] = Student( _name,_surname, _age, true);
 Names.push(_name);
 Number++;
-
+return true;
+}
+else{
+    return false;
 }
 
 
 
+
+}
+
+function unRegisterMe() public returns(bool success){
+
+if(StudentList[msg.sender].exist)
+{
+    StudentList[msg.sender]=Student("","",0,false);
+}
 return true;
 }
 
@@ -47,7 +61,7 @@ return true;
 
 function getmydata() public view returns(Student memory _student){
 
-return StudentList[Owner];
+return StudentList[msg.sender];
 
 }
 

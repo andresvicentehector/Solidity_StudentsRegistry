@@ -48,6 +48,11 @@
 								"type": "string"
 							},
 							{
+								"internalType": "string",
+								"name": "surname",
+								"type": "string"
+							},
+							{
 								"internalType": "uint8",
 								"name": "age",
 								"type": "uint8"
@@ -74,12 +79,30 @@
 						"type": "string"
 					},
 					{
+						"internalType": "string",
+						"name": "_surname",
+						"type": "string"
+					},
+					{
 						"internalType": "uint8",
 						"name": "_age",
 						"type": "uint8"
 					}
 				],
 				"name": "registerMe",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "unRegisterMe",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -119,11 +142,11 @@
 	},
 	"sources": {
 		"contracts/StudentsRegistry.sol": {
-			"keccak256": "0x5be7afe71623ab225c15fcb89360efe79c2fc3bac569e343a582948bb71e77ab",
+			"keccak256": "0x9ff7bacd5711858856bed66d493a0a2ba9a14a56009e0e1826480b7198e1e010",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0f059e0ed02b1f49711db482f8ea69dfaf3e63ea72d18d9f3cc68722e0ea9ad7",
-				"dweb:/ipfs/QmTTi8xdB43vTZU8mSyzZBrF2kKbUDAGRKQm2aqhJMPwey"
+				"bzz-raw://7b1f54bf75cfbc29e71b3aae4ab561a2fe5f2229c1640f6a71f5e132ebcd360a",
+				"dweb:/ipfs/QmdcGvmajohZXFt6u5rjJ1gNCZznGoVvVhqz7in32gLriN"
 			]
 		}
 	},
