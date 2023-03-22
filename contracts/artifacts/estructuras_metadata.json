@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "follaninias",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "autor",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "dificultad",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "numeros",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/estructuras.sol": "estructuras"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/estructuras.sol": {
+			"keccak256": "0x4e2f35f8285e6ed52cff44ff07e9c0abea6e78ca8cdb8b82003a5034263618d3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e5aa5638e994e7108031061ff80a2b5712b7f0432ef2dc57b3eeb8de9fdb2f6d",
+				"dweb:/ipfs/QmUUsd1btpZhc2XT6j1gtqkTrPDjAUbhXjeZdMzZkeNnvW"
+			]
+		}
+	},
+	"version": 1
+}

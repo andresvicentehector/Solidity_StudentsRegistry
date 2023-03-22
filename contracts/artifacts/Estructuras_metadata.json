@@ -1,0 +1,107 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "juan",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "nombre",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "apellido",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "edad",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "nums_Nosing_definite",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "nums_nosing_withVal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Estructuras.sol": "Estructuras"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Estructuras.sol": {
+			"keccak256": "0xeb7852bc122a7909795f7ae04b3634b658c3ab3ddc88c64ac1b87c326ed92d15",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://35467737e517374ac661de5b35d58de783ec8e712532d0b93a5fd2c84748d345",
+				"dweb:/ipfs/QmURA72uhA5Fv8PPQ3WKqY32KCbUdGAZah8Gigm1FBdXfS"
+			]
+		}
+	},
+	"version": 1
+}

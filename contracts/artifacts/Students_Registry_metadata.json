@@ -1,0 +1,126 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getStudentsList",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "_names",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getmydata",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint8",
+								"name": "age",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct Students_Registry.student",
+						"name": "_student",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_age",
+						"type": "uint8"
+					}
+				],
+				"name": "registerMe",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Students_registry.sol": "Students_Registry"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Students_registry.sol": {
+			"keccak256": "0xb70d81ee460ec157927719c23f74fcdf28f848f001adcdf2e35b6e5750004431",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://73a8d5b0e3a8447412605f7c2d27fb0f4857001eaef092cc68cf85ce41d5d7d9",
+				"dweb:/ipfs/QmbT7bF9nbQxomof5UZbUsUVhfNbFwHjbfrbFVNxyuWUVi"
+			]
+		}
+	},
+	"version": 1
+}
