@@ -15,7 +15,11 @@ getTaskbyId -> returns a task after giving an id(string+dificulty)
 getTaskTextbyId -> returns the task value after giving an id (only the string)
 getAllTaskTxt -> return all the task on an array.
 
-![addTask](main/screenshots/tasklist.png)
+
+<div align="right">
+    <img src="https://github.com/andresvicentehector/Solidity_StudentsRegistry/blob/main/screenshots/tasklist.png" width="400px"</img> 
+</div>
+
 
 StudentsRegistry Contract
 
